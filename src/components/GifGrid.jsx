@@ -1,4 +1,10 @@
+import { useState, useEffect } from 'react';
+
 const GifGrid = ({category}) => {
+
+    useEffect(() => {
+        getGifs(category);
+    }, [category]);
 
     const API_KEY = '8sg4AkVXVyBkb8fs6AtIUnEWIkYwjz9G'
 
