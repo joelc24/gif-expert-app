@@ -1,4 +1,4 @@
-const GifGridItem = ({id, title, url}) => {
+export const GifGridItem = ({title, url}) => {
     return ( 
         <div className="card animate__animated animate__fadeIn">
             <img src={url} alt={title} />
@@ -7,4 +7,4 @@ const GifGridItem = ({id, title, url}) => {
      );
 }
  
-export default GifGridItem;
+/* export default GifGridItem; */
